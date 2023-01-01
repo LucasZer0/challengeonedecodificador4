@@ -1,0 +1,144 @@
+.logoalura{
+
+    margin: 15px;
+    height: 60px;
+    margin-left: 80px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+body {
+    background: linear-gradient(#b4b4b4, #b4b4b4);
+}
+
+
+main {
+    display: flex;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+} 
+
+
+.input-texto {
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    
+    
+    
+}
+
+.mensagem {
+    
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+      
+}
+
+.conversor{
+    margin: 15px;
+    height: 60px;
+    width: 20px;
+}
+
+.ponto{
+    width: 20px;
+           
+}
+   
+.informacao {
+       display: inline-block;
+       margin-left: 5px;
+       text-align: left;
+       font-size: 30px;
+       color: #FFFFFF;
+       padding: 5px;
+       font-style: italic;
+       
+      
+}
+
+.copiar {
+ 
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 10px;
+    background-color: #2d2bb4;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+
+    transform: scale(1.1);
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.encriptar {
+    background-color: #2d2bb4;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar {
+    margin-left: 25px;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+
+    transform: scale(1.1);
+    
+    
+}
+
+.desencriptar:hover {
+  
+    transform: scale(1.1);
+    }
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    
+}
+@media only screen and (max-device-width: 700px) {
+     .input-texto { 
+        width:auto; 
+    } 
+
+    .encriptar, .desencriptar{
+
+        display: -moz-inline-grid   ;
+        
+    }
+
+    }
+    
